@@ -1,24 +1,7 @@
-import { useEffect, useState } from "react";
 import Logo from "../assets/Logo.png";
-import { FaLinkedin, FaGithub, FaSun, FaMoon } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  // Set dark mode on mount based on preference or existing class
-  useEffect(() => {
-    if (isDarkMode) {
-      document.body.classList.add("dark");
-    } else {
-      document.body.classList.remove("dark");
-    }
-  }, [isDarkMode]);
-
-  const toggleTheme = () => {
-    // const newMode = !isDarkMode;
-    setIsDarkMode(!isDarkMode);
-  };
-
   return (
     <nav className="flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
@@ -43,11 +26,6 @@ const Navbar = () => {
         >
           <FaGithub />
         </a>
-
-        {/* Theme Toggle Icon */}
-        <button onClick={toggleTheme}>
-          {isDarkMode ? <FaMoon /> : <FaSun />}
-        </button>
       </div>
     </nav>
   );
