@@ -1,0 +1,100 @@
+import { HERO_CONTENT } from "../constants";
+import profileImage from "../assets/hero.jpg";
+import resume from "../assets/Md-Farhan-Resume.pdf";
+
+import { motion } from "framer-motion";
+import { MdOutlineFileDownload } from "react-icons/md";
+
+const container = (delay) => ({
+  hidden: {
+    x: -100,
+    opacity: 0,
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: { duration: 0.5, delay: delay },
+  },
+});
+
+const Hero = () => {
+  return (
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+      <div className="flex flex-wrap">
+        <div className="w-full flex items-center lg:w-1/2">
+          <div className="flex flex-col gap-3 lg:items-start md:items-center">
+            <motion.h1
+              variants={container(0)}
+              initial="hidden"
+              animate="visible"
+              className="text-6xl font-semibold tracking-tight lg:mt-10 lg:text-8xl"
+            >
+              Hii,I'm Farhan
+            </motion.h1>
+            <motion.span
+              variants={container(0.5)}
+              initial="hidden"
+              animate="visible"
+              className="bg-gradient-to-r from-yellow-300 via-slate-500 to-pink-500 bg-clip-text text-2xl tracking-tight text-transparent"
+            >
+              MERN Stack & React Native Developer
+            </motion.span>
+            {/* <motion.p
+              variants={container(1)}
+              initial="hidden"
+              animate="visible"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+            >
+              {HERO_CONTENT}
+            </motion.p> */}
+            <div className="flex gap-3 md:gap-5">
+              <motion.button
+                onClick={() => {
+                  const link = document.createElement("a");
+                  link.href = { resume };
+                  link.download = "Dev_Farhan_Resume.pdf";
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
+                className="flex items-center gap-3 p-3 mb-5 text-xs md:text-sm text-white border border-white rounded-md 
+             bg-transparent 
+             hover:bg-gradient-to-r hover:from-pink-300 hover:via-slate-500 hover:to-purple-500 
+             hover:border-transparent"
+              >
+                Download Resume{" "}
+                <span className="text-lg">
+                  <MdOutlineFileDownload />
+                </span>
+              </motion.button>
+              <motion.button
+                className="flex items-center gap-3 p-3 mb-5 text-xs md:text-sm text-white border border-white rounded-md 
+             bg-transparent 
+             hover:bg-gradient-to-r hover:from-pink-300 hover:via-slate-500 hover:to-purple-500 
+             hover:border-transparent md:px-10"
+              >
+                Let's Connect{" "}
+              </motion.button>
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex items-center justify-center lg:w-1/2">
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, delay: 1.2 }}
+            className="flex justify-center items-center border border-white rounded-full  md:w-[400px] md:h-[400px] overflow-hidden"
+          >
+            <img
+              className="w-full h-full object-cover"
+              src={profileImage}
+              alt="Farhan"
+            />
+          </motion.div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
