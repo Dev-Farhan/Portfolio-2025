@@ -5,7 +5,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 
 ## 🌐 Live Demo
 
-[View Live Website](https://your-deployed-link.com)
+[View Live Website](https://portfolio-2025-seven-swart.vercel.app/)
 
 ## 🚀 Features
 
@@ -68,7 +68,7 @@ This project is licensed under the MIT License.
 
 ---
 
-> Made with ❤️ by [Farhan](https://your-website-link.com)
+> Made with ❤️ by [Farhan](https://portfolio-2025-seven-swart.vercel.app/)
 
 ```
 
