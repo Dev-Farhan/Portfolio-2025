@@ -35,7 +35,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-yellow-300 via-slate-500 to-pink-500 bg-clip-text text-2xl tracking-tight text-transparent"
+              className="text-2xl tracking-tight text-purple-500"
             >
               MERN Stack & React Native Developer
             </motion.span>
@@ -58,23 +58,21 @@ const Hero = () => {
                   document.body.removeChild(link);
                 }}
                 className="flex items-center gap-3 p-3 mb-5 text-xs md:text-sm text-white border border-white rounded-md 
-             bg-transparent 
-             hover:bg-gradient-to-r hover:from-pink-300 hover:via-slate-500 hover:to-purple-500 
-             hover:border-transparent"
+             bg-transparent hover:bg-purple-500 hover:border-transparent"
               >
                 Download Resume{" "}
                 <span className="text-lg">
                   <MdOutlineFileDownload />
                 </span>
               </motion.button>
-              <motion.button
-                className="flex items-center gap-3 p-3 mb-5 text-xs md:text-sm text-white border border-white rounded-md 
-             bg-transparent 
-             hover:bg-gradient-to-r hover:from-pink-300 hover:via-slate-500 hover:to-purple-500 
-             hover:border-transparent md:px-10"
-              >
-                Let's Connect{" "}
-              </motion.button>
+              <a href="mailto:mohdfarhan067@gmail.com">
+                <motion.button
+                  className="flex items-center gap-3 p-3 mb-5 text-xs md:text-sm text-white border border-white rounded-md 
+    bg-transparent hover:bg-purple-500 hover:border-transparent md:px-10"
+                >
+                  Let's Connect
+                </motion.button>
+              </a>
             </div>
           </div>
         </div>
@@ -83,7 +81,7 @@ const Hero = () => {
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 1.2 }}
-            className="flex justify-center items-center border border-white rounded-full  md:w-[400px] md:h-[400px] overflow-hidden"
+            className="flex justify-center items-center border border-white hover:border-4 hover:border-purple-500 rounded-full  md:w-[400px] md:h-[400px] overflow-hidden transition-all duration-300 ease-in-out"
           >
             <img
               className="w-full h-full object-cover"

@@ -82,38 +82,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Javascript", "React"],
     link: "https://imdb-clone-farhan.netlify.app/",
   },
-  {
-    title: "Bazario : E-Commerce Shopping Website",
-    image: project1,
-    description:
-      "An e-commerce website built with React and Tailwind CSS, using the FakeStore API for dynamic product data fetching and a responsive shopping experience.",
-    technologies: ["HTML", "CSS", "React", "TailwindCss"],
-    link: "https://bazario-shop-smart.netlify.app/",
-  },
-  {
-    title: "Contact Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["Javascript", "Node.js", "Express.js", "MongoDB"],
-    link: "https://github.com/Dev-Farhan/Contact-Management-Application",
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind Css"],
-    link: "https://dev-farhan-portfolio.vercel.app/",
-  },
-  {
-    title: "Movies (TMDB) Application",
-    image: project4,
-    description:
-      "Build a clone of TMDB using ReactJS, showcasing strong frontend development skills and attention to detail in creating a user-friendly interface for browsing and searching popular movies, top rated Movie, and viewing ratings.",
-    technologies: ["HTML", "CSS", "Javascript", "React"],
-    link: "https://imdb-clone-farhan.netlify.app/",
-  },
+  
 ];
 
 export const CONTACT = {

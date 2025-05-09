@@ -13,9 +13,12 @@ const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
       <motion.h1
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: -100 }}
-        transition={{ duration: 1.5 }}
+        whileHover={{
+          scale: 1.08,
+          rotate: 1,
+          borderColor: "#a855f7",
+        }}
+        transition={{ type: "spring", stiffness: 300 }}
         className="my-20 pl-20 text-start text-4xl"
       >
         Skills & <span className="text-purple-500">Tools</span>
