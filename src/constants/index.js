@@ -2,10 +2,17 @@ import project1 from "../assets/projects/bazario.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/portfolio.jpg";
 import project4 from "../assets/projects/imdb-clone.jpg";
+import project5 from "../assets/projects/project5.png";
 
 export const HERO_CONTENT = `I'm a Full-Stack MERN Developer with over 6 months of experience in building and optimizing web applications. My skill set spans across front-end and back-end development, allowing me to create seamless, efficient, and user-friendly solutions. I’m passionate about coding, continuously learning, and eager to take on new challenges that push the boundaries of technology.`;
 
-export const ABOUT_TEXT = `I'm a Full-Stack Developer specializing in the MERN stack, with over 6 months of hands-on experience in creating dynamic and responsive web applications. My journey in web development has equipped me with a solid foundation in both front-end and back-end technologies. I enjoy crafting intuitive user interfaces with React and ensuring robust backend performance using Node.js, Express, and MongoDB. My approach to development is driven by a passion for learning and a commitment to delivering high-quality, scalable solutions. Whether working on complex business logic or fine-tuning user experiences, I thrive on solving problems and bringing innovative ideas to life.`;
+export const ABOUT_TEXT = `I'm a passionate and dedicated MERN Stack Developer with a strong foundation in MongoDB, Express.js, React.js, and Node.js. As a fresher, I'm constantly learning and building real-world projects to sharpen my skills and stay updated with the latest technologies in web development.
+
+I enjoy turning complex problems into simple, beautiful, and intuitive solutions. My goal is to become a full-fledged full-stack developer capable of delivering robust, scalable, and user-friendly applications.
+
+I'm also exploring version control (Git/GitHub), REST APIs, and deployment tools like Vercel and Render. Currently, I'm focused on building responsive web apps and contributing to open-source projects to enhance my experience.
+
+I'm looking forward to collaborating with teams, learning from experienced developers, and growing in the tech industry.`;
 
 export const EXPERIENCES = [
   {
@@ -56,7 +63,8 @@ export const PROJECTS = [
     description:
       "An e-commerce website built with React and Tailwind CSS, using the FakeStore API for dynamic product data fetching and a responsive shopping experience.",
     technologies: ["HTML", "CSS", "React", "TailwindCss"],
-    link: "https://bazario-shop-smart.netlify.app/",
+    link: "https://github.com/Dev-Farhan/Bazario-Shop-Smart-Shop-Stylish",
+    liveLink: "https://bazario-shop-smart.netlify.app",
   },
   {
     title: "Contact Management App",
@@ -72,7 +80,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind Css"],
-    link: "https://dev-farhan-portfolio.vercel.app/",
+    // link: "https://dev-farhan-portfolio.vercel.app/",
+    // liveLink: "https://agency-web-landing-page-mu.vercel.app/"
   },
   {
     title: "Movies (TMDB) Application",
@@ -80,9 +89,18 @@ export const PROJECTS = [
     description:
       "Build a clone of TMDB using ReactJS, showcasing strong frontend development skills and attention to detail in creating a user-friendly interface for browsing and searching popular movies, top rated Movie, and viewing ratings.",
     technologies: ["HTML", "CSS", "Javascript", "React"],
-    link: "https://imdb-clone-farhan.netlify.app/",
+    link: "https://github.com/Dev-Farhan/React-IMDB-Clone-App-",
+    liveLink: "https://imdb-clone-farhan.netlify.app/",
   },
-  
+  {
+    title: "Agency Website",
+    image: project5,
+    description:
+      "This is a fully responsive and interactive IT Agency Website designed and developed to represent a modern tech company's online presence. The website includes multiple dynamic sections and provides a seamless user experience across all devices.",
+    technologies: ["HTML", "CSS", "Tailwind CSS", "Javascript", "React"],
+    link: "https://github.com/Dev-Farhan/Agency-Web-Landing-Page",
+    liveLink: "https://agency-web-landing-page-mu.vercel.app/",
+  },
 ];
 
 export const CONTACT = {

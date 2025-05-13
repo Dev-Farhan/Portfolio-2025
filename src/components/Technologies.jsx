@@ -30,24 +30,24 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 justify-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 justify-items-center">
           <SkillIcon
             icon={DiHtml5}
             label="HTML"
             colorClass="text-orange-500"
-            duration={0.4}
+            duration={3}
           />
           <SkillIcon
             icon={DiCss3}
             label="CSS"
             colorClass="text-blue-600"
-            duration={0.1}
+            duration={5}
           />
           <SkillIcon
             icon={RiTailwindCssFill}
             label="Tailwind CSS"
             colorClass="text-blue-500"
-            duration={0.1}
+            duration={4}
           />
           <SkillIcon
             icon={FaSquareJs}
@@ -71,19 +71,19 @@ const Technologies = () => {
             icon={SiMongodb}
             label="MongoDB"
             colorClass="text-green-600"
-            duration={2.5}
+            duration={5}
           />
           <SkillIcon
             icon={FaNodeJs}
             label="Node.js"
             colorClass="text-green-500"
-            duration={0.8}
+            duration={3}
           />
           <SkillIcon
             icon={FaGithub}
             label="Git & GitHub"
             colorClass="text-gray-300"
-            duration={0.8}
+            duration={4}
           />
           <SkillIcon
             icon={VscVscode}
@@ -95,13 +95,13 @@ const Technologies = () => {
             icon={SiPostman}
             label="Postman"
             colorClass="text-orange-500"
-            duration={3}
+            duration={5}
           />
           <SkillIcon
             icon={FaFigma}
             label="Figma"
             colorClass="text-gray-300"
-            duration={3}
+            duration={4}
           />
         </div>
       </motion.div>

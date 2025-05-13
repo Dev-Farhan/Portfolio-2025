@@ -55,8 +55,8 @@ const ProjectCard = ({ project }) => {
         className="w-full h-48 object-cover rounded-xl mb-4 p-2"
       />
       <h3 className="text-white text-lg font-semibold mb-2">{project.title}</h3>
-      <p className="mb-4 text-neutral-400">{project.description}</p>
-      <p className="text-neutral-400 text-sm mb-4">
+      <p className="mb-4 text-neutral-400 text-wrap">{project.description}</p>
+      <p className="text-neutral-400 text-sm mb-4 text-wrap">
         {project.technologies.map((tech, index) => (
           <span
             key={index}
@@ -67,14 +67,20 @@ const ProjectCard = ({ project }) => {
         ))}
       </p>
       <div className="flex justify-between gap-3">
-        <a href={project.link} target="_blank" rel="noopener noreferrer">
-          <button className="bg-white/10 text-white px-4 py-1 rounded hover:bg-white/20 text-sm">
-            Live Demo
-          </button>
-        </a>
-        <button className="bg-white/10 text-white px-4 py-1 rounded hover:bg-white/20 text-sm">
-          GitHub
-        </button>
+        {project.liveLink && (
+          <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+            <button className="bg-white/10 text-white px-4 py-1 rounded hover:bg-white/20 text-sm">
+              Live Demo
+            </button>
+          </a>
+        )}
+        {project.link && (
+          <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <button className="bg-white/10 text-white px-4 py-1 rounded hover:bg-white/20 text-sm">
+              GitHub
+            </button>
+          </a>
+        )}
       </div>
     </motion.div>
   );

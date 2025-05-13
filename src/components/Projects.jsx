@@ -30,7 +30,7 @@ const Projects = () => {
         ))}
       </motion.div>
       {/* Show "View All" button only if there are more than 4 projects */}
-      {PROJECTS.length > 4 && !showAll && (
+      {PROJECTS.length > 6 && !showAll && (
         <button
           onClick={() => setShowAll(true)}
           className="mt-4 mx-auto block px-6 py-2 border border-white text-white text-xs hover:border-transparent hover:bg-purple-900 hover:transition-all hover:ease-in-out rounded"
