@@ -56,16 +56,23 @@ const ProjectCard = ({ project }) => {
       />
       <h3 className="text-white text-lg font-semibold mb-2">{project.title}</h3>
       <p className="mb-4 text-neutral-400 text-wrap">{project.description}</p>
-      <p className="text-neutral-400 text-sm mb-4 text-wrap">
+      <p
+        className={`text-neutral-400 text-sm mb-4 ${
+          project.technologies.length > 4
+            ? "flex flex-wrap gap-2"
+            : "flex gap-2"
+        }`}
+      >
         {project.technologies.map((tech, index) => (
           <span
             key={index}
-            className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+            className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
           >
             {tech}
           </span>
         ))}
       </p>
+
       <div className="flex justify-between gap-3">
         {project.liveLink && (
           <a href={project.liveLink} target="_blank" rel="noopener noreferrer">

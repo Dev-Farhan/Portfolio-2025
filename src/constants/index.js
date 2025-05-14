@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/imdb-clone.jpg";
 import project5 from "../assets/projects/project5.png";
+import project6 from "../assets/projects/watch.png";
 
 export const HERO_CONTENT = `I'm a Full-Stack MERN Developer with over 6 months of experience in building and optimizing web applications. My skill set spans across front-end and back-end development, allowing me to create seamless, efficient, and user-friendly solutions. I’m passionate about coding, continuously learning, and eager to take on new challenges that push the boundaries of technology.`;
 
@@ -100,6 +101,22 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Tailwind CSS", "Javascript", "React"],
     link: "https://github.com/Dev-Farhan/Agency-Web-Landing-Page",
     liveLink: "https://agency-web-landing-page-mu.vercel.app/",
+  },
+  {
+    title: "Animated Hero Section",
+    image: project6,
+    description:
+      "A beautifully designed and fully responsive hero section for a luxury watch brand, featuring interactive animations powered by Framer Motion. Includes functionality for image switching and dynamic background changes.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Javascript",
+      "React",
+      "Framer Motion",
+    ],
+    link: "https://github.com/Dev-Farhan/Animated-Landing-Page",
+    liveLink: "https://watch-animated-page.netlify.app/",
   },
 ];
 
