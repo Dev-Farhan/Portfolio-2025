@@ -1,4 +1,3 @@
-import { HERO_CONTENT } from "../constants";
 import profileImage from "../assets/hero.jpg";
 import resume from "../assets/Md-Farhan-Resume.pdf";
 
@@ -21,8 +20,8 @@ const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
-        <div className="w-full flex items-center lg:w-1/2">
-          <div className="flex flex-col gap-3 lg:items-start md:items-center">
+        <div className="w-full flex items-center justify-center lg:w-1/2 ">
+          <div className="flex flex-col gap-3 lg:pl-14 lg:items-start md:items-start">
             <motion.h1
               variants={container(0)}
               initial="hidden"
@@ -37,7 +36,7 @@ const Hero = () => {
               animate="visible"
               className="text-2xl tracking-tight text-purple-500"
             >
-              MERN Stack & React Native Developer
+              MERN Stack Developer
             </motion.span>
             {/* <motion.p
               variants={container(1)}

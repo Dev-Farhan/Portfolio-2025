@@ -57,7 +57,7 @@ const Technologies = () => {
           />
           <SkillIcon
             icon={TbBrandReactNative}
-            label="React & React Native"
+            label="React"
             colorClass="text-blue-500"
             duration={3}
           />

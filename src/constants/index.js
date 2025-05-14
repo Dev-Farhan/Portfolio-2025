@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/bazario.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/portfolio.jpg";
+import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/imdb-clone.jpg";
 import project5 from "../assets/projects/project5.png";
 
@@ -80,7 +80,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind Css"],
-    // link: "https://dev-farhan-portfolio.vercel.app/",
+    // link: "  ",
     // liveLink: "https://agency-web-landing-page-mu.vercel.app/"
   },
   {
