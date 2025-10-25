@@ -47,7 +47,7 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p> */}
             <div className="flex gap-3 md:gap-5">
-              <motion.button
+              {/* <motion.button
                 onClick={() => {
                   const link = document.createElement("a");
                   link.href = { resume };
@@ -63,7 +63,7 @@ const Hero = () => {
                 <span className="text-lg">
                   <MdOutlineFileDownload />
                 </span>
-              </motion.button>
+              </motion.button> */}
               <a href="mailto:mohdfarhan067@gmail.com">
                 <motion.button
                   className="flex items-center gap-3 p-3 mb-5 text-xs md:text-sm text-white border border-white rounded-md 

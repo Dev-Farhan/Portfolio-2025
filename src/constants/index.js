@@ -7,13 +7,13 @@ import project6 from "../assets/projects/watch.png";
 
 export const HERO_CONTENT = `I'm a Full-Stack MERN Developer with over 6 months of experience in building and optimizing web applications. My skill set spans across front-end and back-end development, allowing me to create seamless, efficient, and user-friendly solutions. I’m passionate about coding, continuously learning, and eager to take on new challenges that push the boundaries of technology.`;
 
-export const ABOUT_TEXT = `I'm a passionate and dedicated MERN Stack Developer with a strong foundation in MongoDB, Express.js, React.js, and Node.js. As a fresher, I'm constantly learning and building real-world projects to sharpen my skills and stay updated with the latest technologies in web development.
+export const ABOUT_TEXT = `I’m a Full Stack Developer (MERN) at Aliema Infotech, passionate about building modern, scalable, and user-focused web applications. My expertise includes MongoDB, Express.js, React.js, and Node.js, along with a strong foundation in HTML, CSS, and JavaScript.
 
-I enjoy turning complex problems into simple, beautiful, and intuitive solutions. My goal is to become a full-fledged full-stack developer capable of delivering robust, scalable, and user-friendly applications.
+I love transforming complex ideas into clean, functional, and visually appealing digital solutions. Over time, I’ve honed my skills in RESTful APIs, version control (Git/GitHub), and deployment platforms like Vercel and Render, ensuring smooth development and delivery workflows.
 
-I'm also exploring version control (Git/GitHub), REST APIs, and deployment tools like Vercel and Render. Currently, I'm focused on building responsive web apps and contributing to open-source projects to enhance my experience.
+I’m always eager to explore new technologies, optimize performance, and craft applications that deliver great user experiences. Currently, I’m focused on developing responsive full-stack projects, enhancing my backend architecture knowledge, and collaborating on impactful real-world applications.
 
-I'm looking forward to collaborating with teams, learning from experienced developers, and growing in the tech industry.`;
+My long-term goal is to grow as a versatile developer—building reliable, innovative, and meaningful digital products that make a difference.`;
 
 export const EXPERIENCES = [
   {
