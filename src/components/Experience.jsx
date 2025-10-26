@@ -68,7 +68,7 @@ const experiences = [
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Git", "Vercel"],
   },
   {
-    role: "Frontend Developer Intern",
+    role: "Frontend Developer",
     company: "BookMyAI",
     duration: "2024 - 2025",
     description:

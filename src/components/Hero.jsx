@@ -1,4 +1,4 @@
-import profileImage from "../assets/main.jpg";
+import profileImage from "../assets/purple.jpg";
 import resume from "../assets/Md-Farhan-Resume.pdf";
 
 import { motion } from "framer-motion";
@@ -80,11 +80,11 @@ const Hero = () => {
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 1.2 }}
-            className="flex justify-center items-center border border-white hover:border-4 hover:border-purple-500 rounded-full  md:w-[400px] md:h-[400px] overflow-hidden transition-all duration-300 ease-in-out"
+            className="flex justify-center items-center border-4 border-white  rounded-full  md:w-[400px] md:h-[400px] overflow-hidden transition-all duration-300 ease-in-out"
           >
             <img
               className="w-full h-full object-cover"
-              src={profileImage}
+              src="https://res.cloudinary.com/dsbqmtwnv/image/upload/v1761457071/purple_rjlmgy.jpg"
               alt="Farhan"
             />
           </motion.div>
