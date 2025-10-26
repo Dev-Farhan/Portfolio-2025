@@ -84,7 +84,7 @@ const Hero = () => {
           >
             <img
               className="w-full h-full object-cover"
-              src="https://res.cloudinary.com/dsbqmtwnv/image/upload/v1761457071/purple_rjlmgy.jpg"
+              src="https://res.cloudinary.com/dsbqmtwnv/image/upload/v1761458517/Vmake1761458316173_c6fhhe.png"
               alt="Farhan"
             />
           </motion.div>
