@@ -1,4 +1,4 @@
-import profileImage from "../assets/hero.jpg";
+import profileImage from "../assets/main.jpg";
 import resume from "../assets/Md-Farhan-Resume.pdf";
 
 import { motion } from "framer-motion";
@@ -36,7 +36,7 @@ const Hero = () => {
               animate="visible"
               className="text-2xl tracking-tight text-purple-500"
             >
-              MERN Stack Developer
+              Full Stack Developer (MERN)
             </motion.span>
             {/* <motion.p
               variants={container(1)}
